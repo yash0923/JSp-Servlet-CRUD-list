@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HomeController</servlet-name>
+  	<display-name>HomeController</display-name>
+  	<description></description>
+  	<servlet-class>ServletController.HomeController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CustomerRegistrationController</servlet-name>
+  	<display-name>CustomerRegistrationController</display-name>
+  	<description></description>
+  	<servlet-class>ServletController.CustomerRegistrationController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteCustomerController</servlet-name>
+  	<display-name>DeleteCustomerController</display-name>
+  	<description></description>
+  	<servlet-class>ServletController.DeleteCustomerController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateCustomerController</servlet-name>
+  	<display-name>UpdateCustomerController</display-name>
+  	<description></description>
+  	<servlet-class>ServletController.UpdateCustomerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HomeController</servlet-name>
+  	<url-pattern>/HomeController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerRegistrationController</servlet-name>
+  	<url-pattern>/CustomerRegistrationController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteCustomerController</servlet-name>
+  	<url-pattern>/DeleteCustomerController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateCustomerController</servlet-name>
+  	<url-pattern>/UpdateCustomerController</url-pattern>
+  </servlet-mapping>
+</web-app>
